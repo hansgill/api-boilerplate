@@ -1,0 +1,30 @@
+*.iso
+dump.rdb
+*.rar
+*.log
+._*
+######################
+############
+ehthumbs.db
+Thumbs.db
+# it's better to unpack these files and commit the raw source
+.Spotlight-V100
+.DS_Store
+/lib
+*.jar
+*.sqlite
+*.sql
+.DS_Store?
+Icon?
+# git has its own built in compression methods
+*.zip
+*.dmg
+.Trashes
+# Packages #
+*.7z
+*.tar
+/bower_components
+/node_modules
+# Logs and databases #
+*.gz
+# OS generated files #

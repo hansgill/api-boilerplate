@@ -1,0 +1,42 @@
+{
+  "app_id" : "api-boilerplate",
+
+  "port" : 5002,
+
+  "log_path" : "/var/log",
+
+  "mongo" : {
+    "host" : "localhost:27017",
+    "opts" : {
+      "auto_reconnect" : true,
+      "poolSize" : 5
+    }
+  },
+  
+  "static_assets" : {
+    "base": "static.api-boilerplate",
+    "url": "https://s3.amazonaws.com/api-boilerplate"
+  },
+
+  "context" : "",
+
+  "base_url" : "api-boilerplate.localhost",
+
+  "mongo" : {
+     "host" : "localhost:27017"
+    ,"opts" : { 
+        "auto_reconnect" : true
+      , "poolSize" : 5
+    }    
+  },
+
+  "email":{
+    "from" : "app <info@app.com>"
+  },
+
+  "title" : "api-boilerplate",
+  "info-email" : "info@app.com",
+
+  "enableBasicAuth" : true,
+  "protectAPI" : true
+}
